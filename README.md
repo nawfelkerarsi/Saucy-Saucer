@@ -48,4 +48,4 @@ Bon voyage !
 
 #### Le lien vers le rapport du projet ce trouve dans le `<footer/>` mais aussi [ici](https://nawfelkerarsi.github.io/Saucy-Saucer/ressouces/Rapport%20COIN[55].pdf).
 
-<img src="https://raw.githubusercontent.com/nawfelkerarsi/Saucy-Saucer/main/ressouces/UPS.svg.png" style="width: 100"/>
+<img src="https://raw.githubusercontent.com/nawfelkerarsi/Saucy-Saucer/main/ressouces/UPS.svg.png" style="width: 100px"/>
