@@ -18,6 +18,12 @@ Pour utiliser ce projet sur votre ordinateur, veuillez suivre les étapes suivan
 4. Configurez les paramètres de l'envoi de mail dans le fichier [mail.php](https://github.com/nawfelkerarsi/Saucy-Saucer/blob/main/mail.php).
 5. Accédez au projet à l'aide de votre navigateur en entrant l'adresse URL du projet.
 
+## Captures d'écrans
+
+Version pour ordinateur             |  Version mobile
+:-------------------------:|:-------------------------:
+<img src="https://raw.githubusercontent.com/nawfelkerarsi/Saucy-Saucer/main/ressouces/SCREENSHOT1.png" style="width: 700px"/>  |  <img src="https://raw.githubusercontent.com/nawfelkerarsi/Saucy-Saucer/main/ressouces/SCREENSHOT2.png"  style="width: 200px"/>
+
 ## Exemple d'utilisation
 
 Voici comment réserver un vol sur le site Saucy Saucer :
@@ -34,11 +40,10 @@ N'hésitez pas à jeter un coup d'œil aux autres pages du site pour en savoir p
 
 Bon voyage !
 
-
 ## Librairies utilisées
 
 - PHPMailer : librairie utilisée pour l'envoi de mails par un serveur SMTP.
 - model-viewer.js : librairie permettant d'ajouter des modèles 3D dans des balises HTML.
 - Font Awesome : librairie d'icônes vectorielles.
 
-#### Le lien vers le rapport du projet ce trouve dans le `<footer/>` 
+#### Le lien vers le rapport du projet ce trouve dans le `<footer/>`
