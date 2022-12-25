@@ -6,6 +6,7 @@ Bienvenue sur le projet Saucy Saucer, un site web fictif qui présente une entre
 
 - La page `bookseats.php` permet de réserver un vol en choisissant la destination, la date de départ, l'heure et le mode de transport (Classic, Green, Comfort).
 - Le système utilise une API factice avec les données stockées dans des fichiers JSON : [CATEGORY.JSON](https://github.com/nawfelkerarsi/Saucy-Saucer/blob/main/api/v1/CATEGORY.JSON), [DEPARTURES.JSON](https://github.com/nawfelkerarsi/Saucy-Saucer/blob/main/api/v1/DEPARTURES.JSON), [PLANETS.JSON](https://github.com/nawfelkerarsi/Saucy-Saucer/blob/main/api/v1/PLANETS.JSON).
+- Le système est personnalisable : Les listes des planètes, catégories et les listes des départs peuvent être modifiées à tout moment dans les fichiers JSON.
 - À la fin de la réservation, un mail de confirmation est envoyé à l'utilisateur grâce à PHPMailer.
 
 ## Installation
@@ -20,9 +21,9 @@ Pour utiliser ce projet sur votre ordinateur, veuillez suivre les étapes suivan
 
 ## Captures d'écrans
 
-Version pour ordinateur             |  Version mobile
+Version pour ordinateur    |  Version mobile
 :-------------------------:|:-------------------------:
-<img src="https://raw.githubusercontent.com/nawfelkerarsi/Saucy-Saucer/main/ressouces/SCREENSHOT1.png" style="width: 700px"/>  |  <img src="https://raw.githubusercontent.com/nawfelkerarsi/Saucy-Saucer/main/ressouces/SCREENSHOT2.png"  style="width: 200px"/>
+<img src="https://raw.githubusercontent.com/nawfelkerarsi/Saucy-Saucer/main/ressouces/SCREENSHOT1.png" style="width: 700px"/>     |  <img src="https://raw.githubusercontent.com/nawfelkerarsi/Saucy-Saucer/main/ressouces/SCREENSHOT2.png"  style="width: 200px"/>
 
 ## Exemple d'utilisation
 
