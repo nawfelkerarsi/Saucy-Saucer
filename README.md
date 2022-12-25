@@ -46,4 +46,4 @@ Bon voyage !
 - model-viewer.js : librairie permettant d'ajouter des modèles 3D dans des balises HTML.
 - Font Awesome : librairie d'icônes vectorielles.
 
-#### Le lien vers le rapport du projet ce trouve dans le `<footer/>`
+#### Le lien vers le rapport du projet ce trouve dans le `<footer/>` mais aussi [ici](https://nawfelkerarsi.github.io/Saucy-Saucer/ressouces/Rapport%20COIN[55].pdf).
