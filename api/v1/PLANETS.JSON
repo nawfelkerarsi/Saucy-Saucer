@@ -1,0 +1,68 @@
+[
+    {
+        "_id": 1,
+        "category": 1,
+        "distance_point": 4,
+        "name": "Mercure"
+    },
+    {
+        "_id": 2,
+        "category": 1,
+        "distance_point": 1,
+        "name": "Venus"
+    },
+    {
+        "_id": 3,
+        "category": 1,
+        "distance_point": 0,
+        "name": "Terre"
+    },
+    {
+        "_id": 4,
+        "category": 1,
+        "distance_point": 1,
+        "name": "Mars"
+    },
+    {
+        "_id": 5,
+        "category": 1,
+        "distance_point": 2,
+        "name": "Jupiter"
+    },
+    {
+        "_id": 6,
+        "category": 2,
+        "distance_point": 2,
+        "name": "Ganymède"
+    },
+    {
+        "_id": 7,
+        "category": 2,
+        "distance_point": 2,
+        "name": "Callisto"
+    },
+    {
+        "_id": 8,
+        "category": 2,
+        "distance_point": 3,
+        "name": "Triton"
+    },
+    {
+        "_id": 9,
+        "category": 2,
+        "distance_point": 0,
+        "name": "Lune"
+    },
+    {
+        "_id": 10,
+        "category": 3,
+        "distance_point": 5,
+        "name": "Luyten b"
+    },
+    {
+        "_id": 11,
+        "category": 3,
+        "distance_point": 7,
+        "name": "Kepler-442 b"
+    }
+]

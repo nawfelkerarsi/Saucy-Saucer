@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saucy Saucer</title>
+    <link rel="icon" type="image/png" href="ressouces/logo.004.png" />
+    <link rel="stylesheet" href="style/default.css">
+    <script src="https://kit.fontawesome.com/ac8d5c4fc6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <div class="navbar" id="secondary">
+                <div class="content">
+                    <div class="logo" onclick="location.href='./'">
+                        <div class="icon"><img src="ressouces/logo.002.png" alt=""></div>
+                        <div class="text">Saucy Saucer</div>
+                    </div>
+                    <div class="container">
+                        <div class="element">
+                            <a href="bookseats.php">Réserver</a>
+                        </div>
+                        <div class="element">
+                            <a href="ourstory.html">Notre histoire</a>
+                        </div>
+                        <div class="element">
+                            <a href="fleet.html">Les coulisses</a>
+                        </div>
+                        <div class="element">
+                            <a href="contact-us.html">Nous contacter</a>
+                        </div>
+                    </div>
+                    <div class="hamburger">
+                        <div class="menu-icon">
+                            <i class="fa-solid fa-equals" id="equal" onclick="displayMenu()"></i>
+                            <i class="fa-solid fa-xmark" id="cross" onclick="hideMenu()"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="menu" id="menu">
+            <h3 id="menu-link-1"><a href="bookseats.php">Réserver</a></h3>
+            <h3 id="menu-link-2"><a href="ourstory.html">Notre histoire</a></h3>
+            <h3 id="menu-link-3"><a href="fleet.html">Les coulisses</a></h3>
+            <h3 id="menu-link-4"><a href="contact-us.html">Nous contacter</a></h3>
+        </div>
+        <div class="background white">
+            <div class="part-container contact">
+                <div class="left-side">
+                    <div class="title primary black">
+                        <h2>Notre entreprise</h2>
+                    </div>
+                    <div class="title secondary">
+                        <h2>Pour plus d'information complémentaire</h2>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="title primary black">
+                        <h3>Saucy Saucer est une entreprise de voyage interplanétaire.</h3>
+                        <h3>Saucy Saucer est basé à Orsay.</h3>
+                        <h3>Saucy Saucer a été imaginé par 3 étudiants.</h3>
+                        <h3>Saucy Saucer vous écoute sur contact@saucysaucer.fr</h3>
+                        <h3>Saucy Saucer aime les sauces.</h3>
+                        <h3>Saucy Saucer vous sauce un peu.</h3>
+                        <h3>Saucy Saucer abuse un peu du délire.</h3>
+                        <h3>Mais Saucy Saucer vous aime.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background black">
+            <div class="part-container contact">
+                <div class="left-side">
+                    <div class="title primary" id="white">
+                        <h2>Notre entreprise</h2>
+                    </div>
+                    <div class="title secondary">
+                        <h2>Pour nous retrouver</h2>
+                        <h2>Il faudra bien nous chercher</h2>
+                        <h2>Car nous somme bien caché</h2>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="picture">
+                        <iframe style="filter: grayscale(100%) invert(100%) contrast(100%); border:0; width: 100%; height: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2632.711520482143!2d2.168666016063611!3d48.710994579273255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67f538f1df01d%3A0xe5d2ea29a4e0ceb!2sUniversit%C3%A9%20Paris-Saclay%20-%20IUT%20d&#39;Orsay!5e0!3m2!1sfr!2sfr!4v1669518594489!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background black">
+            <div class="part-container contact" id="last">
+                <div class="left-side">
+                    <div class="title primary white">
+                        <h2>Notre entreprise</h2>
+                    </div>
+                    <div class="title secondary">
+                        <h2>Nous contacter</h2>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="title primary white">
+                        <h2>Formulaire de contact</h2>
+                        <form>
+                            <div
+                                style="display: flex; justify-content: space-between; width: calc(100% - (32px)); gap: 50px">
+                                <div style="display: flex; flex-direction: column; width: 100%; ">
+                                    <label>Nom</label>
+                                    <input type="text" placeholder="Nom" name="lastname" required>
+                                </div>
+                                <div style="display: flex; flex-direction: column; width: 100%; ">
+                                    <label>Prénom</label>
+                                    <input type="text" placeholder="Prénom" name="firstname" required>
+                                </div>
+
+                            </div>
+                            <label>Qui voulez-vous contacter ?</label>
+                            <select name="name" id="name-select">
+                                <option value="">-</option>
+                                <option value="nawfel">Nawfel</option>
+                                <option value="augustin">Augustin</option>
+                                <option value="timothé">Timothé</option>
+                            </select>
+                            <label>Adresse mail</label>
+                            <input type="text" placeholder="E-mail" name="email" required>
+                            <label>Votre message</label>
+                            <textarea placeholder="Bonjour," name="message" required></textarea>
+                            <input type="submit" class="primaryButton" value="Envoyer" />
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="desktopSection_footer">
+                <div class="footer">
+                    <div class="foo column">
+                        <div>
+                            <h1>Saucy Saucer</h1>
+                        </div>
+                    </div>
+                    <div class="foo column">
+                        <span>Accéder à</span>
+                        <ul>
+                            <li><a href="bookseats.php">Réserver</a></li>
+                            <li><a href="ourstory.html">Notre histoire</a></li>
+                            <li><a href="fleet.html">Les coulisses</a></li>
+                            <li><a href="contact-us.html">Nous contacter</a></li>
+                            <li onclick="displayPopup()" id="li-rapport">Rapport</li>
+                        </ul>
+                    </div>
+                    <div class="foo column">
+                        <span>Inscrivez-vous à la newsletter</span>
+                        <div class="input">
+                            <input type="text" placeholder="E-mail">
+                            <div class="button-submit">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="madeBy">
+                        <div>Réalisé par</div>
+                        <div class="names">Nawfel, Augustin et Timothé</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="pannel" id="popup">
+            <div class="popup">
+                <div class="content-popup">
+                    <div class="head-popup">
+                        <h3>Télécharger le rapport</h3>
+                    </div>
+                    <div class="body-popup">
+                        <div class="format">
+                            <i class="fa-solid fa-file-word"></i>
+                            <div><a id="download" href="ressouces/Rapport COIN.docx">format Word</a></div>
+                        </div>
+                        <div class="format">
+                            <i class="fa-solid fa-file-pdf"></i>
+                            <div><a id="download" href="ressouces/Rapport COIN[55].pdf">format PDF</a></div>
+                        </div>
+                    </div>
+                    <button class="primaryButton dark" onclick="backPopup()">
+                        Retour
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script/popup.js"></script>
+<script src="script/hamburger.js"></script>
+</body>
+
+</html>
